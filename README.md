@@ -4,20 +4,20 @@
 
 **[Project Setting]**
 
-Project: Gradle Project
+- Project: Gradle Project
 
-Springboot 2.5.5
+- Springboot 2.5.5
 
-Language: Java 11
+- Language: Java 11
 
-Packaging: Jar
+- Packaging: Jar
 
 **[Project Metatdata]**
 
-groupId: hello
+- groupId: hello
 
-artifactId: core
+- artifactId: core
 
 **[Dependencies]**
 
-선택하지 않음
+- 선택하지 않음
