@@ -1,5 +1,11 @@
 package hello.core.member;
 
+import org.w3c.dom.ls.LSOutput;
+
+/**
+ * 회원 서비스 구현체
+ */
+
 public class MemberServiceImpl implements MemberService{
 
     private final MemberRepository memberRepository = new MemoryMemberRepository();
