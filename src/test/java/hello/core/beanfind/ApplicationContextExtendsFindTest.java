@@ -62,8 +62,8 @@ public class ApplicationContextExtendsFindTest {
         for (String key : beansOfType.keySet()) {
             System.out.println("key = " + key + " value=" +
                     beansOfType.get(key));
-        } }
-
+        }
+    }
 
     @Configuration
     static class TestConfig {
@@ -71,6 +71,7 @@ public class ApplicationContextExtendsFindTest {
         public DiscountPolicy rateDiscountPolicy() {
             return new RateDiscountPolicy();
         }
+
         @Bean
         public DiscountPolicy fixDiscountPolicy() {
             return new FixDiscountPolicy();

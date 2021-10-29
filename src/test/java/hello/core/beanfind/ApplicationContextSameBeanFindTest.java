@@ -48,7 +48,6 @@ public class ApplicationContextSameBeanFindTest {
         assertThat(beansOfType.size()).isEqualTo(2);
     }
 
-
     @Configuration
     static class SameBeanConfig {
 
@@ -61,5 +60,8 @@ public class ApplicationContextSameBeanFindTest {
         public MemberRepository memberRepository2() {
             return new MemoryMemberRepository();
         }
+
     }
+
+
 }
