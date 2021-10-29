@@ -16,7 +16,6 @@ public class HelloLombok {
         HelloLombok helloLombok = new HelloLombok();
         helloLombok.setName("abc");
 
-
         System.out.println("name = " + helloLombok);
     }
 }
